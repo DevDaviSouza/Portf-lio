@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react'
-import perfil from './assets/images/perfil.png'
+import perfil from './assets/images/anonimo.png'
 
 export default function App() {
   
@@ -24,17 +24,16 @@ export default function App() {
             
             <div className='technologies'>
                 <img className='technology' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt='react' />
-              
-                <img className='technology' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+             
+                <img className='technology' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt='node'/>
                 
-                <img className='technology' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
+                <img className='technology' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt='sql' />
               
-                <img className='technology' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                <img className='technology' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt='html'/>
                   
-               <img className='technology' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+               <img className='technology' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt='css'/>
            
-              <img className='technology' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
-          
+              <img className='technology' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt='csharp'/>
             </div>
         </div>
       </section>   
